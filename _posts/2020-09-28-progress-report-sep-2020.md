@@ -69,7 +69,7 @@ There has been significant improvements on the amount of passing rustc tests wit
 
 # Challenges
 
-## SIMD
+#### SIMD
 
 Many intrinsics remain unimplemented.
 
