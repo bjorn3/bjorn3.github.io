@@ -72,7 +72,7 @@ Atomic instructions are currently emulated using a global lock. This is very ine
 
 #### SIMD
 
-Many vendor intrinsics remain unimplemented. The new portable SIMD project will however likely exclusively use platform intrinsics or which there are much fewer compared to the LLVM intrinsics used to implement all vendor intrinsics in `core::arch`. In addition platform intrinsics are architecture independent, so they only have to be implemented once.
+Many vendor intrinsics remain unimplemented. The new portable SIMD project will however likely exclusively use platform intrinsics of which there are much fewer compared to the LLVM intrinsics used to implement all vendor intrinsics in `core::arch`. In addition platform intrinsics are architecture independent, so they only have to be implemented once.
 
 * issue [#171](https://github.com/bjorn3/rustc_codegen_cranelift/issues/171): std::arch SIMD intrinsics
 

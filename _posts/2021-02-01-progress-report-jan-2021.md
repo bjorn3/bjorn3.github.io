@@ -13,7 +13,7 @@ Since the [last progress report](https://bjorn3.github.io/2021/01/07/progress-re
 
 #### :tada: ABI compatibility :tada:
 
-The biggest achievement this time is ABI compatibility with cg_llvm and C. This fixed several crashes when linking against C code. This also makes it possible to mix and match crates compile with cg_clif and compiled with cg_llvm. This may be useful for game development by compiling the game engine using cg_llvm with optimizations enabled for runtime performance and then compiling the game logic using cg_clif for incremental compilation time.
+The biggest achievement this time is ABI compatibility with cg_llvm and C. This fixed several crashes when linking against C code. This also makes it possible to mix and match crates compiled with cg_clif and compiled with cg_llvm. This may be useful for game development by compiling the game engine using cg_llvm with optimizations enabled for runtime performance and then compiling the game logic using cg_clif for incremental compilation time.
 
 There is currently no easy way to mix codegen backends for different crates, but I do have a cargo PR open that would allow it. I do not expect it to land as is, but I hope something like it will be merged.
 
@@ -56,7 +56,7 @@ Various issues. See issue [#997](https://github.com/bjorn3/rustc_codegen_craneli
 
 #### SIMD
 
-Many vendor intrinsics remain unimplemented. The new portable SIMD project will however likely exclusively use platform intrinsics or which there are much fewer compared to the LLVM intrinsics used to implement all vendor intrinsics in `core::arch`. In addition platform intrinsics are architecture independent, so they only have to be implemented once.
+Many vendor intrinsics remain unimplemented. The new portable SIMD project will however likely exclusively use platform intrinsics of which there are much fewer compared to the LLVM intrinsics used to implement all vendor intrinsics in `core::arch`. In addition platform intrinsics are architecture independent, so they only have to be implemented once.
 
 * issue [#171](https://github.com/bjorn3/rustc_codegen_cranelift/issues/171): std::arch SIMD intrinsics
 
