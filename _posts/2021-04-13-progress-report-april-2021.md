@@ -59,3 +59,5 @@ Cranelift currently doesn't have support for cleanup during stack unwinding.
 # Contributing
 
 Contributions are always appreciated. Feel free to take a look at [good first issues](https://github.com/bjorn3/rustc_codegen_cranelift/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) and ping me (@bjorn3) for help on either the relevant github issue or preferably on the [rust lang](https://rust-lang.zulipchat.com) zulip if you get stuck.
+
+Thanks to [@bnjbvr](https://githhub.com/bnjbvr) for giving feedback on this progress report.
