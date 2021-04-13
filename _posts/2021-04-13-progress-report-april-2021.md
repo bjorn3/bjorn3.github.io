@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Progress report on rustc_codegen_cranelift (April 2021)"
-date:   2021-04-12
+date:   2021-04-13
 categories: cranelift cg_clif rust
 ---
 
