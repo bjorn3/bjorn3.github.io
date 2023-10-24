@@ -1,0 +1,24 @@
+# Do not use any of my writing to train AI
+
+# Common Crawl is used a lot to train AI
+User-Agent: CCBot
+Disallow: /
+
+# No OpenAI please
+User-agent: GPTBot
+Disallow: /
+
+# ByteDance is likely doing crawling for AI training purposes.
+User-agent: Bytespider
+Disallow: /
+
+# Has an AI chatbot
+User-agent: Baiduspider
+Disallow: /
+
+# Does AI things too
+User-agent: Sogou web spider
+Disallow: /
+
+User-agent: Sogou inst spider
+Disallow: /
