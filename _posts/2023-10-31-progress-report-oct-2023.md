@@ -7,7 +7,7 @@ categories: cranelift cg_clif rust
 
 Quite some exciting progress since the [last progress report](https://bjorn3.github.io/2023/07/29/progress-report-july-2023.html)! There have been [180 commits](https://github.com/rust-lang/rustc_codegen_cranelift/compare/6641b3a548a425eae518b675e43b986094daf609...9a33f82140c6da6e5808253309c674554b93e9fe) since the last progress report.
 
-As of today, rustc_codegen_cranelift is available on nightly! :tada: You can run `rustup component add rustc-codegen-cranelift-preview --toolchain nightly` to install it and then either `CARGO_PROFILE_DEV_CODEGEN_BACKEND=cranelift cargo +nightly build` to use it for the current invocation or add
+As of today, rustc_codegen_cranelift is available on nightly! :tada: You can run `rustup component add rustc-codegen-cranelift-preview --toolchain nightly` to install it and then either `CARGO_PROFILE_DEV_CODEGEN_BACKEND=cranelift cargo +nightly build -Zcodegen-backend` to use it for the current invocation or add
 
 ```toml
 [unstable]
