@@ -5,7 +5,7 @@ date: 2024-04-06
 categories: cranelift cg_clif rust
 ---
 
-There has been a fair bit of progress since the [last progress report](https://bjorn3.github.io/2022/10/12/progress-report-okt-2022.html)! There have been [342 commits](https://github.com/rust-lang/rustc_codegen_cranelift/compare/9a33f82140c6da6e5808253309c674554b93e9fe...242b261585ffb70108bfd236a260e95ec4b06556) since the last progress report.
+There has been a fair bit of progress since the [last progress report](https://bjorn3.github.io/2023/10/31/progress-report-oct-2023.html)! There have been [342 commits](https://github.com/rust-lang/rustc_codegen_cranelift/compare/9a33f82140c6da6e5808253309c674554b93e9fe...242b261585ffb70108bfd236a260e95ec4b06556) since the last progress report.
 
 You can find a precompiled version of cg_clif at <https://github.com/bjorn3/rustc_codegen_cranelift/releases/tag/dev> or in the rustc-codegen-cranelift-preview rustup component if you want to try it out.
 
