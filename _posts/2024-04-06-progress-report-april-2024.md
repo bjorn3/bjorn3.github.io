@@ -20,7 +20,7 @@ A ton of missing SIMD intrinsics got reported over the past couple of months. Mo
 * [#1425](https://github.com/rust-lang/rustc_codegen_cranelift/pull/1425): Implement AES-NI and SHA256 crypto intrinsics using inline asm
 * [#1431](https://github.com/rust-lang/rustc_codegen_cranelift/pull/1431): Implement another batch of vendor intrinsics
 * [45d8c12](https://github.com/rust-lang/rustc_codegen_cranelift/commit/45d8c121ba02c825379b655d8dd74e1843e98d62): Return architecturally mandated target features to rustc
-* [#1443](https://github.com/rust-lang/rustc_codegen_cranelift/pull/1443): Restructure x86 signed pack instructions (thanks @Nilstrieb!)
+* [#1443](https://github.com/rust-lang/rustc_codegen_cranelift/pull/1443): Restructure x86 signed pack instructions (thanks @Noratrieb!)
 * [0dc13d7](https://github.com/rust-lang/rustc_codegen_cranelift/commit/0dc13d7acb0118d6c14a9209d921e5278e829458): Implement \_mm\_prefetch as nop
 * [24361a1](https://github.com/rust-lang/rustc_codegen_cranelift/commit/24361a1b99b122806afdc01c3aae1c43fdcc7e0a): Fix portable-simd tests
 * [604c8a7](https://github.com/rust-lang/rustc_codegen_cranelift/commit/604c8a7cf80eca33bd078d6b45faaa808ef9ecd8): Accept \[u8; N\] bitmasks in simd_select_bitmask
