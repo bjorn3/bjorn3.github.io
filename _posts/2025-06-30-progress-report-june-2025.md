@@ -87,7 +87,7 @@ While `core::simd` is fully supported through emulation using scalar operations,
 
 If your program uses any unsupported vendor intrinsics you will get a compile time warning and if it actually gets reached, the program will abort with an error message indicating which intrinsic is unimplemented. Please open an issue if this happens.
 
-* issue [#171](https://github.com/bjorn3/rustc_codegen_cranelift/issues/171): std::arch SIMD intrinsics
+* issue [#171](https://github.com/rust-lang/rustc_codegen_cranelift/issues/171): std::arch SIMD intrinsics
 
 #### ABI
 
